@@ -38,15 +38,6 @@
                                     <action selector="toggle" destination="BYZ-38-t0r" eventType="touchUpInside" id="7wc-ZR-h52"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H7a-j4-HSw">
-                                <rect key="frame" x="16" y="373" width="343" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="343" id="RVX-Mm-z9N"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="hello world" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DQf-uI-iIM">
                                 <rect key="frame" x="30" y="323" width="87" height="21"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -61,17 +52,12 @@
                             <constraint firstAttribute="leadingMargin" secondItem="fd3-cI-QoB" secondAttribute="leading" id="QbI-0l-sFD"/>
                             <constraint firstItem="fd3-cI-QoB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="299" id="SZl-9r-WR8"/>
                             <constraint firstItem="DQf-uI-iIM" firstAttribute="centerX" secondItem="fd3-cI-QoB" secondAttribute="centerX" id="Sjn-Dp-LKt"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="H7a-j4-HSw" secondAttribute="leading" id="Z1o-Tc-R1f"/>
                             <constraint firstItem="DQf-uI-iIM" firstAttribute="centerY" secondItem="fd3-cI-QoB" secondAttribute="centerY" id="cL7-Si-vXw"/>
                             <constraint firstItem="agG-Pc-fTP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="253" id="kdp-wf-TRu"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="H7a-j4-HSw" secondAttribute="bottom" constant="273" id="xQh-jn-Hpj"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="borderTextFieldWidth" destination="5pG-my-Hs5" id="6n7-ws-tlS"/>
-                        <outlet property="helloLabel" destination="H7a-j4-HSw" id="Cjf-4P-fn2"/>
-                        <outlet property="helloLabelWidthConstraint" destination="RVX-Mm-z9N" id="Cjv-wn-HQX"/>
-                        <outlet property="helloWorldTextField" destination="DQf-uI-iIM" id="Ymm-UW-I4e"/>
                         <outlet property="myButton" destination="agG-Pc-fTP" id="1W5-f7-gVs"/>
                     </connections>
                 </viewController>
